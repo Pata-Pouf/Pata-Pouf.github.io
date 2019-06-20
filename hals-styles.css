@@ -8,17 +8,12 @@ body {
 	display: flex;
 	min-height: 100vh;
 	flex-direction: column;
-
-
-
-/*	background-color: lightgrey;*/
 }
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Montserrat', sans-serif;
 }
 nav {
 	height: 2rem;
-/*	background-color: peachpuff;*/
 	margin-top: 1.5em;
 	margin-bottom: .5em;
 }
@@ -32,7 +27,6 @@ nav ul {
 	max-width: 70%;
 	margin: 0 auto;
 }
-
 li a {
 	text-decoration: none;
 /*	background-color: peachpuff;*/	
@@ -54,8 +48,6 @@ header {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-
-
 }
 main {
 /*	display: flex;
@@ -64,10 +56,6 @@ main {
 	align-items: center;*/
 	border-top: 1px solid;
 	flex: 1;
-
-
-
-
 }
 footer {
 	text-align: center;
@@ -126,14 +114,11 @@ h2 {
 	margin-top: 2em;
 	margin-bottom: 2em;
 	word-wrap: break-word;
-
-
 }
 .contact {
 	text-align: center;
 	margin-top: 2em;
 	margin-bottom: 1em;
-
 }
 .counter-coffee {
 	max-width: 50%;
@@ -157,7 +142,13 @@ h2 {
 	font-size: 16px;
 	font-weight: 500;
 	margin: 0.8em;
+	text-decoration: none;
 }
+#front-page {
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+}
+
 
 /*/*nav li {
 	float: left;
