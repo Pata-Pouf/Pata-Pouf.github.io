@@ -24,7 +24,7 @@ nav ul {
 	list-style-type: none;
 	/*padding-left: 1.85em;*/
 	font-size: 21px;
-	max-width: 70%;
+	width: 70%;
 	margin: 0 auto;
 }
 li a {
@@ -149,10 +149,12 @@ h2 {
 	margin-bottom: 0.3em;
 }
 
+@media screen and (max-width:800px) {
+ nav ul {
+    width:100%;
+}
 
-/*/*nav li {
-	float: left;
-	padding-right: 1.75em;*/
+
 
 
 
